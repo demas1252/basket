@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE basket>
+<basket>
+ <properties>
+  <name>индонезия</name>
+  <icon>basket</icon>
+  <appearance backgroundColor="#ffffff" backgroundImage="" textColor="" />
+  <disposition free="false" mindMap="false" columnCount="1" />
+  <shortcut action="show" combination="" />
+  <protection key="" type="0" />
+ </properties>
+ <notes>
+  <group>
+   <note lastModification="2010-02-08T08:54:12" added="2010-02-08T08:54:11" type="html" >
+    <content>note1.html</content>
+   </note>
+   <note lastModification="2010-02-08T08:54:12" added="2010-02-08T08:54:12" type="html" >
+    <content>note2.html</content>
+   </note>
+   <note lastModification="2010-02-08T08:55:39" added="2010-02-08T08:55:39" type="html" >
+    <content>note3.html</content>
+   </note>
+  </group>
+ </notes>
+</basket>

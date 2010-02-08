@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE basketTags>
+<basketTags>
+  <tag>
+    <name>В работе</name>
+    <shortcut>Ctrl+1</shortcut>
+    <inherited>true</inherited>
+    <state id="todo_unchecked">
+      <name>Флажок отсутствует</name>
+      <emblem>tag_checkbox</emblem>
+      <text bold="false" italic="false" underline="false" strikeOut="false" color="" />
+      <font name="" size="" />
+      <backgroundColor></backgroundColor>
+      <textEquivalent string="[ ]" onAllTextLines="false" />
+    </state>
+    <state id="todo_done">
+      <name>Готово</name>
+      <emblem>tag_checkbox_checked</emblem>
+      <text bold="false" italic="false" underline="false" strikeOut="true" color="" />
+      <font name="" size="" />
+      <backgroundColor></backgroundColor>
+      <textEquivalent string="[x]" onAllTextLines="false" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Выполнение</name>
+    <shortcut>Ctrl+2</shortcut>
+    <inherited>true</inherited>
+    <state id="progress_000">
+      <name>0 %</name>
+      <emblem>tag_progress_000</emblem>
+      <textEquivalent string="[    ]" />
+    </state>
+    <state id="progress_025">
+      <name>25 %</name>
+      <emblem>tag_progress_025</emblem>
+      <textEquivalent string="[=   ]" />
+    </state>
+    <state id="progress_050">
+      <name>50 %</name>
+      <emblem>tag_progress_050</emblem>
+      <textEquivalent string="[==  ]" />
+    </state>
+    <state id="progress_075">
+      <name>75 %</name>
+      <emblem>tag_progress_075</emblem>
+      <textEquivalent string="[=== ]" />
+    </state>
+    <state id="progress_100">
+      <name>100 %</name>
+      <emblem>tag_progress_100</emblem>
+      <textEquivalent string="[====]" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Приоритет</name>
+    <shortcut>Ctrl+3</shortcut>
+    <inherited>true</inherited>
+    <state id="priority_low">
+      <name>Низкий</name>
+      <emblem>tag_priority_low</emblem>
+      <textEquivalent string="{1}" />
+    </state>
+    <state id="priority_medium">
+      <name>Средний</name>
+      <emblem>tag_priority_medium</emblem>
+      <textEquivalent string="{2}" />
+    </state>
+    <state id="priority_high">
+      <name>Высокий</name>
+      <emblem>tag_priority_high</emblem>
+      <textEquivalent string="{3}" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Предпочтение</name>
+    <shortcut>Ctrl+4</shortcut>
+    <inherited>true</inherited>
+    <state id="preference_bad">
+      <name>Плохой</name>
+      <emblem>tag_preference_bad</emblem>
+      <textEquivalent string="(*  )" />
+    </state>
+    <state id="preference_good">
+      <name>Хороший</name>
+      <emblem>tag_preference_good</emblem>
+      <textEquivalent string="(** )" />
+    </state>
+    <state id="preference_excellent">
+      <name>Великолепный</name>
+      <emblem>tag_preference_excellent</emblem>
+      <textEquivalent string="(***)" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Выделение</name>
+    <shortcut>Ctrl+5</shortcut>
+    <state id="highlight">
+      <backgroundColor>#ffffcc</backgroundColor>
+      <textEquivalent string="=>" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Важное</name>
+    <shortcut>Ctrl+6</shortcut>
+    <state id="important">
+      <emblem>tag_important</emblem>
+      <backgroundColor>#ffcccc</backgroundColor>
+      <textEquivalent string="!!" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Очень важное</name>
+    <shortcut>Ctrl+7</shortcut>
+    <state id="very_important">
+      <emblem>tag_important</emblem>
+      <text color="#ffffff" />
+      <backgroundColor>#ff0000</backgroundColor>
+      <textEquivalent string="/!\" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Information</name>
+    <shortcut>Ctrl+8</shortcut>
+    <state id="information">
+      <emblem>messagebox_info</emblem>
+      <textEquivalent string="(i)" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Идея</name>
+    <shortcut>Ctrl+9</shortcut>
+    <state id="idea">
+      <emblem>ktip</emblem>
+      <textEquivalent string="I." />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Заголовок</name>
+    <shortcut>Ctrl+0</shortcut>
+    <state id="title">
+      <text bold="true" />
+      <textEquivalent string="##" />
+    </state>
+  </tag>
+
+  <tag>
+    <name>Код</name>
+    <state id="code">
+      <font name="monospace" />
+      <textEquivalent string="|" onAllTextLines="true" />
+    </state>
+  </tag>
+
+  <tag>
+    <state id="work">
+      <name>Работа</name>
+      <text color="#ff8000" />
+      <textEquivalent string="W." />
+    </state>
+  </tag>
+
+  <tag>
+    <state id="personal">
+      <name>Персональные</name>
+      <text color="#008000" />
+      <textEquivalent string="P." />
+    </state>
+  </tag>
+
+  <tag>
+    <state id="funny">
+      <name>Задорное</name>
+      <emblem>tag_fun</emblem>
+    </state>
+  </tag>
+</basketTags>
